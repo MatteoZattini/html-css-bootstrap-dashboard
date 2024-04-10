@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Dashboard</title>
@@ -15,15 +16,26 @@
             <nav class="navbar w-100">
                 <div class="container-fluid">
                     <div class="nav-item">
-                        <img src="./img/logo.svg" alt="">
+                        <img src="./img/logo.svg" alt="" class="hide">
+                        <img src="./img/mobile-logo.png" alt="" class="mynone myh-100">
                     </div>
                     <div class="nav-item w-50 mx-3">
                         <form class="d-flex" role="search">
                             <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                           </form>
                     </div>
-                    <div>
-                        <i class="fa-solid fa-list mx-1"></i>
+                    <!-- <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown button
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div> -->
+                    <div class="nav-item">
+                        <i class="fa-solid fa-list mx-1"></i> 
                         <i class="fa-solid fa-circle-question mx-1"></i>
                         <i class="fa-solid fa-ellipsis-vertical mx-1"></i>
                     </div>
@@ -34,15 +46,26 @@
 
     <main class="myd-flex">
         <!-- sidebar -->
-        <div class="mycontainerside">
-            <div class="mysideicons mt-3 d-flex justify-content-center align-items-center">
-                <span><i class="fa-solid fa-house"></i> Home</span>
+        <div class="mycontainerside d-flex flex-column justify-content-between">
+            <div>
+                <div class="mysideicons mt-3 d-flex justify-content-center align-items-center">
+                    <span class="hide"><i class="fa-solid fa-house"></i> Home</span>
+                    <span class="mynone"><i class="fa-solid fa-house"></i></span>
+                </div>
+                <div class="mysideicons d-flex justify-content-center align-items-center">
+                    <span class="hide"><i class="fa-solid fa-chart-simple"></i> Stats</span>
+                    <span class="mynone"><i class="fa-solid fa-chart-simple"></i></span>
+                </div>
+                <div class="mysideicons d-flex justify-content-center align-items-center">
+                    <span class="hide"><i class="fa-solid fa-signal"></i> Signals</span>
+                    <span class="mynone"><i class="fa-solid fa-signal"></i></span>
+                </div>
             </div>
-            <div class="mysideicons d-flex justify-content-center align-items-center">
-                <span><i class="fa-solid fa-chart-simple"></i> Stats</span>
-            </div>
-            <div class="mysideicons d-flex justify-content-center align-items-center">
-                <span><i class="fa-solid fa-signal"></i> Signals</span>
+            <div>
+                <div class="mysideicons mt-3 d-flex justify-content-center align-items-center">
+                    <span class="hide"><i class="fa-solid fa-gear"></i> Admin</span>
+                    <span class="mynone"><i class="fa-solid fa-gear"></i></span>
+                </div>
             </div>
         </div>
     
