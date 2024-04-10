@@ -12,21 +12,21 @@
     <!-- header -->
     <header>
         <div class="mycontainerheader d-flex align-center">
-            <nav class="navbar">
+            <nav class="navbar w-100">
                 <div class="container-fluid">
                     <div class="nav-item">
                         <img src="./img/logo.svg" alt="">
                     </div>
-                    <div class="nav-item mx-3">
-                        <!-- <div class="input-group">
-                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <input type="text" class="form-control" placeholder="Prova a cercare: Sezioni di Laravel" aria-label="Search" aria-describedby="basic-addon1">
-                          </div> -->
+                    <div class="nav-item w-50 mx-3">
                         <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                           </form>
                     </div>
-
+                    <div>
+                        <i class="fa-solid fa-list mx-1"></i>
+                        <i class="fa-solid fa-circle-question mx-1"></i>
+                        <i class="fa-solid fa-ellipsis-vertical mx-1"></i>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -35,7 +35,15 @@
     <main class="myd-flex">
         <!-- sidebar -->
         <div class="mycontainerside">
-    
+            <div class="mysideicons mt-3 d-flex justify-content-center align-items-center">
+                <span><i class="fa-solid fa-house"></i> Home</span>
+            </div>
+            <div class="mysideicons d-flex justify-content-center align-items-center">
+                <span><i class="fa-solid fa-chart-simple"></i> Stats</span>
+            </div>
+            <div class="mysideicons d-flex justify-content-center align-items-center">
+                <span><i class="fa-solid fa-signal"></i> Signals</span>
+            </div>
         </div>
     
         <!-- content -->

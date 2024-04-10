@@ -6,16 +6,16 @@ body{
     display: flex;
 }
 
+.w-10{
+    width: 10%;
+}
+
 /* header */
 
 .mycontainerheader{
     width: 100%;
     height: 4rem;
     border: 1px solid black;
-}
-
-.navbar{
-    width: 100% !important;
 }
 
 /* sidebar */
@@ -30,6 +30,13 @@ body{
     width: calc(100% - 10rem);
     height: calc(100vh - 4rem);
     border: 1px solid black;
+}
+
+.mysideicons{
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    margin: 0 1.5rem;
 }
 
 /* media queries */
