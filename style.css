@@ -14,6 +14,10 @@ body{
     border: 1px solid black;
 }
 
+.navbar{
+    width: 100% !important;
+}
+
 /* sidebar */
 
 .mycontainerside{
