@@ -58,12 +58,14 @@ body{
 
 .mycontainermainsmall{
     width: 100%;
+    padding: 0.5rem;
     /* height: 5rem; */
     border: 1px solid black;
 }
 
 .mycontainermainbig{
     width: 100%;
+    padding: 1rem;
     /* height: 100%; */
     /* height: calc(100% - 5rem); */
     /* border: 1px solid black; */
@@ -74,6 +76,13 @@ body{
     height: auto;
 }
 
+.badge{
+    padding-bottom: 0.4rem;
+}
+
+.fa-pen{
+    /* font-size: 0.8rem; */
+}
 /* media queries */
 
 @media screen and (max-width: 768px) {
@@ -86,7 +95,7 @@ body{
     }
     
     .mynone{
-        display: block;
+        display: inline-block;
     }
 
     .hide{
