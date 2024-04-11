@@ -90,8 +90,18 @@
                             <span>Studenti online negl'ultimi 30 minuti</span>
                             <h3>125</h3>
                         </div>
-                        <div class="col-12 col-sm-4 my-2 d-flex">
+                        <div class="col-12 col-sm-4 my-2">
                             <span>Nuovo Studente</span>
+                            <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                            <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                  
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -109,8 +119,8 @@
                                         <thead>
                                             <tr>
                                                 <th class="w-50" scope="col">Nome</th>
-                                                <th scope="col">Data inizio</th>
-                                                <th scope="col">ROI</th>
+                                                <th class="d-none d-lg-table-cell" scope="col">Data inizio</th>
+                                                <th class="d-none d-lg-table-cell" scope="col">ROI</th>
                                                 <th scope="col">Stato</th>
                                                 <th scope="col">Azioni</th>
                                             </tr>
@@ -119,56 +129,56 @@
                                             <tr>
                                                 <th scope="row"><img class="myclassicon" src="./img/class-avatar.png"
                                                         alt=""> Classe 60</th>
-                                                <td>15 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-lg-table-cell">20%</td>
                                                 <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                                 <td><button type="button" class="btn btn-outline-secondary px-1 py-0"><i class="fa-solid fa-pen"></i></button> <button type="button" class="btn btn-outline-secondary px-2 py-0"><i class="fa-solid fa-trash"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img class="myclassicon" src="./img/class-avatar.png"
                                                         alt=""> Classe 60</th>
-                                                <td>15 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-lg-table-cell">20%</td>
                                                 <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                                 <td><button type="button" class="btn btn-outline-secondary px-1 py-0"><i class="fa-solid fa-pen"></i></button> <button type="button" class="btn btn-outline-secondary px-2 py-0"><i class="fa-solid fa-trash"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img class="myclassicon" src="./img/class-avatar.png"
                                                         alt=""> Classe 60</th>
-                                                <td>15 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-lg-table-cell">20%</td>
                                                 <td><span class="badge rounded-pill text-bg-warning">Process</span></td>
                                                 <td><button type="button" class="btn btn-outline-secondary px-1 py-0"><i class="fa-solid fa-pen"></i></button> <button type="button" class="btn btn-outline-secondary px-2 py-0"><i class="fa-solid fa-trash"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img class="myclassicon" src="./img/class-avatar.png"
                                                         alt=""> Classe 60</th>
-                                                <td>15 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-lg-table-cell">20%</td>
                                                 <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                                 <td><button type="button" class="btn btn-outline-secondary px-1 py-0"><i class="fa-solid fa-pen"></i></button> <button type="button" class="btn btn-outline-secondary px-2 py-0"><i class="fa-solid fa-trash"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img class="myclassicon" src="./img/class-avatar.png"
                                                         alt=""> Classe 60</th>
-                                                <td>15 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-lg-table-cell">20%</td>
                                                 <td><span class="badge rounded-pill text-bg-danger">Failed</span></td>
                                                 <td><button type="button" class="btn btn-outline-secondary px-1 py-0"><i class="fa-solid fa-pen"></i></button> <button type="button" class="btn btn-outline-secondary px-2 py-0"><i class="fa-solid fa-trash"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img class="myclassicon" src="./img/class-avatar.png"
                                                         alt=""> Classe 60</th>
-                                                <td>15 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-lg-table-cell">20%</td>
                                                 <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                                 <td><button type="button" class="btn btn-outline-secondary px-1 py-0"><i class="fa-solid fa-pen"></i></button> <button type="button" class="btn btn-outline-secondary px-2 py-0"><i class="fa-solid fa-trash"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <th scope="row"><img class="myclassicon" src="./img/class-avatar.png"
                                                         alt=""> Classe 60</th>
-                                                <td>15 Feb 2021</td>
-                                                <td>20%</td>
+                                                <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                                <td class="d-none d-lg-table-cell">20%</td>
                                                 <td><span class="badge rounded-pill text-bg-danger">Failed</span></td>
                                                 <td><button type="button" class="btn btn-outline-secondary px-1 py-0"><i class="fa-solid fa-pen"></i></button> <button type="button" class="btn btn-outline-secondary px-2 py-0"><i class="fa-solid fa-trash"></i></button></td>
                                             </tr>

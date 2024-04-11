@@ -38,6 +38,9 @@ body{
     width: 10rem;
     height: calc(100vh - 4rem);
     border: 1px solid black;
+    background-image: url(img/sidebar-bg.png);
+    background-color: #051E34;
+    color: white;
 }
 
 .mycontainermain{
