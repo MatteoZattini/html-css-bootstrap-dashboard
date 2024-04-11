@@ -66,6 +66,10 @@ body{
     border: 1px solid black;
 }
 
+#offcanvasRight{
+    width: 40%;
+}
+
 .mycontainermainbig{
     width: 100%;
     padding: 1rem;
@@ -86,6 +90,7 @@ body{
 .fa-pen{
     /* font-size: 0.8rem; */
 }
+
 /* media queries */
 
 @media screen and (max-width: 768px) {
@@ -109,8 +114,14 @@ body{
         width: 3rem;
         margin: 0 0.5rem;
     }
+
+    #offcanvasRight{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 576px) {
-
+    #offcanvasRight{
+        width: 100%;
+    }
 }
