@@ -43,7 +43,8 @@ body{
 .mycontainermain{
     width: calc(100% - 10rem);
     height: calc(100vh - 4rem);
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    overflow: auto;
 }
 
 .mysideicons{
@@ -57,14 +58,15 @@ body{
 
 .mycontainermainsmall{
     width: 100%;
-    height: 5rem;
+    /* height: 5rem; */
     border: 1px solid black;
 }
 
 .mycontainermainbig{
     width: 100%;
-    height: calc(100% - 5rem);
-    border: 1px solid black;
+    /* height: 100%; */
+    /* height: calc(100% - 5rem); */
+    /* border: 1px solid black; */
 }
 
 .myclassicon{
@@ -95,4 +97,8 @@ body{
         width: 3rem;
         margin: 0 0.5rem;
     }
+}
+
+@media screen and (max-width: 576px) {
+
 }
